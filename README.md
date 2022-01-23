@@ -65,12 +65,9 @@ Metric(s):
 We build train and test by randomly splitting in the ratio of 70:30 or 80:20 whatever we choose as we have sufficient points to work with.
 
 #### 2.4 Results 
-Tokenizer - TF-IDF Word2Vec with Hyperparameter Tuning
-+---------------------+---------------------+
-|        Model        |    Test Log Loss    |
-+---------------------+---------------------+
-|     Random Model    |  0.8825399864303776 |
-| Logistic Regression | 0.46549076309019727 |
-|      Linear SVM     |  0.4721378224417455 |
-|       XGBoost       |  0.3710808367731127 |
-+---------------------+---------------------+
+
+Tokenizer - TF-IDF weighted Word2Vec with Hyperparameter Tuning
+
+![image](https://user-images.githubusercontent.com/21690885/150669641-61408358-9f4d-44a5-b81a-9c0febdcb2c5.png)
+
+
